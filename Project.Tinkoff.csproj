@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<ServerGarbageCollection>false</ServerGarbageCollection>
+    <AssemblyTitle>Tinkoff</AssemblyTitle>
+	  <Company>ООО "Проект"</Company>
+	  <Product>Цифровая HR платформа</Product>
+	  <Copyright>"Copyright ©️ $([System.DateTime]::Now.ToString(yyyy)), ООО "Проект""</Copyright>
+	  <AssemblyVersion>5.0.0</AssemblyVersion>
+	  <FileVersion>5.0.0</FileVersion>
+	  <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Project.Schema" Version="0.2.163" />
+    <PackageReference Include="Project.Sdk" Version="0.1.215" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="src\Infrastructure\" />
+  </ItemGroup>
+
+</Project>

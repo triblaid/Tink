@@ -1,0 +1,17 @@
+{
+  "omnisharp.useModernNet": true,
+
+  "emmet.triggerExpansionOnTab": true,
+
+  "files.exclude": {
+    "**/bin": true,
+    "**/obj": true,
+  },
+
+  "editor.tabSize": 4,
+
+  "explorer.autoReveal": false,
+  "explorer.compactFolders": false,
+  
+  "csharp.referencesCodeLens.enabled": false,
+}
